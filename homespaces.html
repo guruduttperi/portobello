@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FFF">
+  <meta name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, width=device-width, height=device-height, viewport-fit=cover">
+  <title>Homespaces • Gurudutt Perichetla</title>
+  <link rel="stylesheet" href="/css/bulma.min.css">
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/main.css">
+
+  <link rel="icon" type="image/png" href="images/iconmeme.png">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <meta name="full-screen" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" background="#FFF">
+  <meta name="apple-mobile-web-app-title" content="Gurudutt">
+
+  <meta property="og:title" content="Gurudutt Perichetla • UX Designer">
+  <meta property="og:image" content="images/circ2.png">
+  <meta property="og:description" content="MS-HCI student at Georgia Tech. <br>
+      Currently designing immersive experiences at the intersection of Data Science and Mixed Reality.">
+
+  <style>
+    @import url('https://rsms.me/inter/inter.css');
+    html {
+      font-family: 'Inter', sans-serif;
+    }
+
+    @supports (font-variation-settings: normal) {
+      html {
+        font-family: 'Inter var', sans-serif;
+      }
+    }
+  </style>
+  <!-- Remember to include jQuery :) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+  <!-- jQuery Modal -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min">
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146854000-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-146854000-1');
+
+
+  </script>
+
+</head>
+
+<body data-gr-c-s-loaded="true" data-aos-easing="ease" data-aos-duration="12" data-aos-delay="0" class = "portfolio">
+  <a href="#" id="back-to-top" class="back-to-top" style="display: inline;">↑</a>
+  <nav class="navbar bkg-white is-fixed-top">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item is-1" href="index.html" id="logo">
+
+          <h4 class="title is-5" style = "color: black;"><b>Gurudutt Perichetla</b></h4>
+
+        </a>
+
+        <span class="navbar-burger burger" data-target="navMenu">
+          <span></span>
+        <span></span>
+        <span></span>
+        </span>
+      </div>
+      <div id="navMenu" class="navbar-menu navbar-end">
+        <div class="navbar-end">
+        <!--  <div class="navbar-item has-dropdown is-hoverable">
+             <a class="navbar-link is-active" >
+               <b>Project Navigation</b>
+             </a>
+             <div class="navbar-dropdown is-boxed">
+               <a class="navbar-item" href="#cs_overview">
+                 Overview
+               </a>
+               <a class="navbar-item" href="#cs_problem">
+                 Problem
+               </a>
+               <a class="navbar-item" href="#cs_research">
+                 Research and Findings
+               </a>
+               <a class="navbar-item" href="#cs_personas">
+                 User Personas
+               </a>
+               <a class="navbar-item" href="#cs_wireframe">
+                 Wireframing
+               </a>
+               <a class="navbar-item" href="#cs_lofi">
+                 Lo-Fi Prototyping
+               </a>
+               <a class="navbar-item" href="#cs_hifi">
+                 Hi-Fi Prototyping
+               </a>
+             </div>
+           </div> -->
+
+          <a href="index.html" class="navbar-item"><b>Work</b></a>
+          <a href="music.html" class="navbar-item "><b>Music</b></a>
+
+          <a href="about.html" class="navbar-item"><b>About</b></a>
+        </div>
+      </div>
+    </div>
+    <br>
+
+  </nav>
+  <nav class="floating-menu is-hidden-touch bkg-transparent">
+
+       <a class="navbar-item is-active bkg-transparent">
+         <b>Project Navigation</b>
+       </a>
+
+         <a class="navbar-item bkg-transparent" href="#cs_overview">
+           Overview
+         </a>
+         <a class="navbar-item bkg-transparent" href="#cs_problem">
+           Problem
+         </a>
+         <a class="navbar-item bkg-transparent" href="#cs_research">
+           Research and Findings
+         </a>
+         <a class="navbar-item bkg-transparent" href="#cs_personas">
+           User Personas
+         </a>
+         <a class="navbar-item bkg-transparent" href="#cs_wireframe">
+           Wireframing
+         </a>
+         <a class="navbar-item bkg-transparent " href="#cs_lofi">
+           Lo-Fi Prototyping
+         </a>
+         <a class="navbar-item bkg-transparent" href="#cs_hifi">
+           Hi-Fi Prototyping
+         </a>
+
+    </nav>
+
+<!--  <section class="hero bkg-white is-medium" style="background-image: url('/images/h1.svg')">
+      <div class="hero-body">
+        <div class="container">
+          <div data-aos="fade-up" data-aos-duration="10" data-aos-easing="ease-in-out" class="aos-init">
+            <div class="columns is-centered is-vcentered">
+<br><br><br>
+              <div class="column is-8">
+                <h1 class="title is-2 " style="text-align: center; color: var(--passionred-wcag);">
+Homespaces
+        </h1>
+                <h2 class="subtitle is-4" style="text-align: center; color: var(--black);">
+  How can you find spaces to rent within a budget, especially when moving to a new city?</h2>
+              </div>
+
+        <div class = "column is-4">
+              <figure class="image">
+                <img src="images/h2.png">
+              </figure>
+            </div> -->
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="hero bkg-white is-fullheight" style="background-image: url(' '); background-repeat: no-repeat;">
+
+        <div class="hero-body">
+
+
+          <div class="container">
+
+             <div class="columns is-centered">
+
+                <div class="column is-8">
+                  <h1 class="title is-2 " style="text-align: left; color: var(--passionred-wcag);">
+                  <br>Homespaces<br><br>
+
+                  </h1>
+                  <h2 class="subtitle is-4" style="text-align: left; color: var(--black);">
+                  How can you find spaces to rent within a budget, especially when moving to a new city?</h2>
+</div>
+</div>
+<div class="columns is-centered">
+<div class = "column is-10">
+<figure class="image">
+  <br>
+<img src="images/home_slab.png" class = "img-rounded img-boxshadow">
+  <div id = "cs_overview"> </div>
+  <br><br>
+</figure>
+</div>
+</div>
+
+<div class="columns is-centered">
+
+  <div class="column is-8">
+
+                  <h1 class="title is-4 " style="text-align: left; color: var(--passionred-wcag);">
+            Overview
+          </h1>
+                  <h2 class="subtitle is-6" style="text-align: left; color: var(--black);">
+    <br>Homespaces is an app that helps students to find affordable spaces to rent and temporary spaces for modeling shoots, parties and storage purposes. My role was to design the user interface of the application and enrich the customer experiences. The timeline was from September 2nd 2018 to September 14th 2018.</h2>
+
+<div id = "cs_problem"> </div>
+    <h1 class="title is-4 " style="text-align: left; color: var(--passionred-wcag);">
+    <br><br>Problem
+    </h1>
+    <h2 class="subtitle is-6" style="text-align: left; color: var(--black);">
+    <br>It is often difficult to rent spaces within a budget, especially when moving to a new city. Students have to find spaces to stay. Dorms and off-campus housing are very expensive. This introduces a problem of affordability.</h2>
+<div id = "cs_research"> </div>
+
+    <h1 class="title is-4 " style="text-align: left; color: var(--passionred-wcag);">
+    <br><br>Research and Findings
+    </h1>
+    <h2 class="subtitle is-6" style="text-align: left; color: var(--black);">
+    <br>I looked for Apartment Rent Reports online and came across data drawn from a website known as apartmentlist. There was a report for the months of July - August 2018 which was drawn from millions of listings on their website. Using 1-bedroom and 2-bedroom apartment rents per month, I had plotted a graph classifying rents into 4 categories depending on how ranges of expense per state.</h2>
+
+    <figure class="image">
+
+      <img src="images/homespaces/map2.png">
+
+    </figure>
+
+
+    <h2 class="subtitle is-6" style="text-align: left; color: var(--black);">
+    <br>By interpreting this information we can understand how difficult it is to rent an apartment — based on financial background. My goal is to reduce these expenses by creating a network that is friendly to college students as they take massive loans to study in universities around the US.
+    <br><br> There are major issues that affect platforms that people normally use to rent spaces. Consider Craigslist, a platform which allows people to buy/sell/rent all at low prices. There are issues in these platforms — an example of which is the safety of both parties - buyer and seller.
+
+</h2>
+
+<figure class="image">
+  <img src="images/homespaces/ideation.jpg">
+</figure>
+
+<h2 class="subtitle is-6" style="text-align: left; color: var(--black);">
+<br>With the constant rising of housing prices over the years, it can be said that a lot of people simply cannot pay a premium to buy a house.
+</h2>
+
+<figure class="image">
+  <img src="images/homespaces/news1.png">
+</figure>
+
+<div id = "cs_personas"> </div>
+<h1 class="title is-4 " style="text-align: left; color: var(--passionred-wcag);">
+<br><br>User Personas
+</h1>
+<figure class="image">
+  <img src="images/homespaces/bianca.jpg">
+</figure>
+<h2 class="subtitle is-6" style="text-align: left; color: var(--black);">
+<br>Bianca just got accepted into a prestigious university in downtown Los Angeles. She cannot afford on-campus housing and looks for places to rent that are close enough to her university. The problem, here, is that downtown Los Angeles is one of the most dangerous places to live -- if you find yourself in the wrong neighborhood. How does she find an affordable and safe place to stay?</h2>
+<figure class="image">
+  <img src="images/homespaces/michael.jpg">
+</figure>
+<h2 class="subtitle is-6" style="text-align: left; color: var(--black);">
+<br>Insert Michael who is an independent filmmaker who has houses in downtown Los Angeles and Venice Beach. He uses Homespaces to rent his house in Downtown Los Angeles to other people. By using the mobile app, Bianca can instantly connect with Michael and message him regarding her stay.</h2>
+
+<div id = "cs_wireframe"> </div>
+<h1 class="title is-4 " style="text-align: left; color: var(--passionred-wcag);">
+<br><br>Wireframing
+</h1>
+
+<h2 class="subtitle is-6" style="text-align: left; color: var(--black);">
+<br>For Homespaces, I’ve introduced a more human-centric approach to the gathering of user data. Instead of the traditional method where the user creates an account by filling forms, there is now a chatbot or assistant which takes user data and parses it to get valuable information.</h2>
+
+<figure class="image">
+  <img src="images/homespaces/wireframe.jpg">
+</figure>
+
+<br>Payment is done using digital wallets such as Apple Pay, Google Pay, and Paypal - which enables cashless transactions between renter and owner 24x7. One of the additional features I thought of adding to Homespaces - was to create a rating based system, similar to how Uber works. Each space gets a rating based on the renters which increases its reputation. By using machine learning algorithms we can recommend spaces to users based on their interests.</h2>
+
+<div id = "cs_lofi"> </div>
+<h1 class="title is-4 " style="text-align: left; color: var(--passionred-wcag);">
+<br><br>Lo-Fi Prototyping
+</h1>
+<br><figure class="image">
+  <img src="images/homespaces/lofi1.jpg">
+</figure>
+<br><br><figure class="image">
+  <img src="images/homespaces/lofi2.jpg">
+</figure>
+<br><br><figure class="image">
+  <img src="images/homespaces/lofi3.jpg">
+</figure>
+
+<div id = "cs_hifi"></div>
+<h1 class="title is-4 " style="text-align: left; color: var(--passionred-wcag);">
+<br><br>Hi-Fi Prototyping
+</h1>
+<br><figure class="image">
+  <img src="images/homespaces/hifi1.png">
+</figure>
+<br><br><figure class="image">
+  <img src="images/homespaces/hifi2.png">
+</figure>
+<br><br><figure class="image">
+  <img src="images/homespaces/hifi3.png">
+</figure>
+<figure class="image">
+<iframe src="https://marvelapp.com/jee3509?emb=1&iosapp=false&frameless=false" width="640" height="884" allowTransparency="true" frameborder="0"></iframe>
+</figure>
+<h1 class="title is-4 " style="text-align: left; color: var(--passionred-wcag);">
+<br><br>
+  <a href = "https://guruduttperi.github.io/homespaces/" class = "button is-rounded bkg-white" style = " "><b> Link to Interactive Prototype ⟶ </b></a>
+
+
+
+</h1>
+
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </section>
+  <script type="text/javascript">
+    (function() {
+      var burger = document.querySelector('.burger');
+      var nav = document.querySelector('#' + burger.dataset.target);
+      burger.addEventListener('click', function() {
+        burger.classList.toggle('is-active');
+        nav.classList.toggle('is-active');
+      });
+    })();
+
+    AOS.init();
+    /*
+        $('.hover').mouseover(function() {
+      $('.text').css("visibility","visible");
+    });
+
+    $('.hover').mouseout(function() {
+      $('.text').css("visibility","hidden");
+    });
+    */
+
+    /*
+    $(".portimg").hover(function(){
+
+    		var oldimg = $("assets/i2.png").attr("src");
+    		var newimg = $("assets/s2.png").attr("src");
+
+    		$(this).attr("src", newimg);
+    		}, function(){
+    		$(this).attr("src", ouimg);
+    });
+    */
+
+    function displaytext(value) {
+      text = value;
+      document.write(text);
+    }
+
+    /* Handles the page being scrolled by ensuring the navigation is always in
+ * view.
+ */
+function handleScroll(){
+
+  // check that this is a relatively modern browser
+  if (window.XMLHttpRequest){
+
+    // determine the distance scrolled down the page
+    var offset = window.pageYOffset
+               ? window.pageYOffset
+               : document.documentElement.scrollTop;
+
+    // set the appropriate class on the navigation
+    document.getElementById('navigation').className =
+        (offset > 104 ? 'fixed' : '');
+
+  }
+
+}
+
+// add the scroll event listener
+if (window.addEventListener){
+  window.addEventListener('scroll', handleScroll, false);
+}else{
+  window.attachEvent('onscroll', handleScroll);
+}
+
+  </script>
+
+
+  <section class="hero bkg-frost" >
+      <div class="hero-body">
+        <div class="container">
+
+            <div class="columns is-centered">
+
+              <div class="column is-12">
+
+              </div>
+              <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+              <!--  <a class="pagination-previous">Previous Project</a> -->
+                <a class="button is-rounded pagination-next bkg-black" href = "rescue.html" style = ""><b>Next Project ⟶</b></a>
+
+              </nav>
+
+            </div>
+
+        </div>
+      </div>
+    </section>
+
+
+
+
+<!--
+  <div style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" class="nav-stripe"></div>
+-->
+  <footer class="footer bkg-bottom-grey">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-5" style="visibility: visible; opacity: 1; transition: opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.3s;">
+          <h1 style="visibility: visible; color:color: var(--black); opacity: 1; transition: opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.3s;" class = "subtitle is-6">
+               If you're interested to know more about me or my work, reach out to me at <a href="mailto:gperichetla3@gatech.edu" class = "textlink" style = "color: var(--black); font-weight: bold;">gperichetla3@gatech.edu</a><br><br>
+               I'm currently looking for Product and UX Design internships for Summer 2020.
+
+</h1>
+        </div>
+
+        <div class="column is-3 is-offset-2" style="visibility: visible; opacity: 1; transition: opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.3s; color: var(--black);">
+                <h1 style="visibility: visible; color:white; opacity: 1; transition: opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.3s;" class = "subtitle is-6">
+          <p style="color: var(--black);"><b style="color: var(--black);">Connect</b><br><br></p>
+          <ul>
+          <li><a href="https://www.linkedin.com/in/guruduttperi/" class = "textlink" style="color: var(--black);">LinkedIn ⟶</a> &nbsp; <br><a href="https://open.spotify.com/artist/3s5cmywpL5c4WNgPU4KutH" class = "textlink" style="color: var(--black);">Spotify ⟶</a> &nbsp; </li>
+          <li><a href="https://twitter.com/guruduttperi" class = "textlink"
+              style="color: var(--black);">Twitter ⟶ </a><br><a href="https://www.instagram.com/gperichetla/" class = "textlink" style="color: var(--black);">Instagram ⟶</a></li>
+        </ul>
+        </h1>
+        </div>
+
+        <div class="column is-3" style="visibility: visible; opacity: 1; transition: opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.3s; olor: var(--black);">
+          <h1 style="visibility: visible; color: var(--black); opacity: 1; transition: opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.3s;" class = "subtitle is-6">
+            <b>Gurudutt Perichetla</b><br><br>
+            <ul>
+              <li>Designer.<br> Developer.</li>
+              <li>Engineer.<br> Musician.</li>
+            </ul>
+</h1>
+        </div>
+
+
+      </div>
+    </div>
+  </footer>
+  <!-- Fades in the button when you scroll down -->
+  <script>
+  var link = document.getElementById("back-to-top");
+  var amountScrolled = 250;
+
+  window.addEventListener('scroll', function(e) {
+    if (window.pageYOffset > amountScrolled) {
+      link.classList.add('show');
+    } else {
+      link.className = 'back-to-top';
+    }
+  });
+
+  <!-- Scrolls to Top -->
+  link.addEventListener('click', function(e) {
+    e.preventDefault();
+
+    var distance = 0 - window.pageYOffset;
+    var increments = distance / (500 / 16);
+
+    function animateScroll() {
+      window.scrollBy(0, increments);
+      if (window.pageYOffset <= document.body.offsetTop) {
+        clearInterval(runAnimation);
+      }
+    };
+    // Loop the animation function
+    var runAnimation = setInterval(animateScroll, 16);
+  });
+
+
+
+// When the user scrolls the page, execute myFunction
+// <!--         window.onscroll = function() {
+//              myFunction()
+//          };
+//
+//          function myFunction() {
+//              var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+//              var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+//              var scrolled = (winScroll / height) * 100;
+//              document.getElementById("myBar").style.width = scrolled + "%";
+//          }
+//
+//
+// -->
+// Sidebar navigation
+<!--
+  var dlink = document.getElementById("floating-menu");
+  var amountScrolled = 250;
+
+  window.addEventListener('scroll', function(e) {
+      if ( window.pageYOffset > amountScrolled ) {
+          dlink.classList.add('show');
+
+      } else {
+          dlink.className = 'floating-menu';
+      }
+  });
+
+ // Scrolls to Top
+  dlink.addEventListener('click', function(e) {
+
+      // Loop the animation function
+    var runAnimation = setInterval(animateScroll, 16);
+  });
+-->
+
+//lightbox
+
+
+
+  </script>
+
+<!-- <script src="https://platform-beta.oswaldlabs.com/v1/agastya/load/guruduttperi.js" async defer></script>
+  <script>
+  const agastya = new Agastya("guruduttperi");
+</script> -->
+
+</body>
+
+</html>
